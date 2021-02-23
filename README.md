@@ -3,7 +3,7 @@ near-boilerplate-as
 
 This is a port of [create-near-app boilerplate app](https://github.com/near-examples/create-near-app) to use the singleton pattern with `@nearBindgen`.  
 
-Check out the [contract](./contract/assembly/index.tx) to see notes on how to use the pattern.
+Check out the [contract](./contract/assembly/index.ts) to see notes on how to use the pattern.
 
 
 Quick Start
