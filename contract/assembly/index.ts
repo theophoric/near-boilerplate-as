@@ -12,7 +12,7 @@
  *
  */
 
-import { context, logging, persist, storage } from 'near-sdk-as'
+import { context, logging, persist, storage } from 'near-sdk-as';
 
 const DEFAULT_GREETING = 'Hello';
 
@@ -25,7 +25,6 @@ type AccountId = string;
 @nearBindgen
 export class GreeterContract {
 
-  // extends BaseContract { ... >> CANNOT EXTEND CLASSES 
   private account_greetings: Map<AccountId, string> = new Map<AccountId, string>();
   private isInit: bool = false;
   
